@@ -2,14 +2,16 @@ html,
 body,
 * {
     padding: 5px;
-    margin: 35px;
+    margin: 25px;
     box-sizing: border-box;
     font-size: 62.5%;
 }
 .header {
     font-size: 50px;
     text-align: center;
-    border: 3px solid rgb(239, 209, 59)
+    border: 3px solid rgb(133, 95, 21);
+    border-radius: 25px;
+    background-color: rgb(202, 216, 99);
 }
 .cards {
     font-size: 30px;
@@ -17,21 +19,24 @@ body,
     justify-content: space-around;
     align-items: center;
 }
-.siamese {
+.new-england {
     border: 3px solid rgb(121, 150, 239);
-    height: 30px;
+    border-radius: 25px;
+    height: 200px;
     width: 50%;
     text-align: center;
 }
-.british-shorthair {
+.middle {
     border: 3px solid rgb(121, 150, 239);
-    height: 30px;
+    border-radius: 25px;
+    height: 200px;
     width: 50%;
     text-align: center;
 }
-.burmese {
+.southern {
     border: 3px solid rgb(121, 150, 239);
-    height: 30px;
+    border-radius: 25px;
+    height: 200px;
     width: 50%;
     text-align: center;
 }
