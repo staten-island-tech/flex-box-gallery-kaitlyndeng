@@ -2,7 +2,7 @@ html,
 body,
 * {
     padding: 5px;
-    margin: 25px;
+    margin: 15px 30px;
     box-sizing: border-box;
     font-size: 62.5%;
 }
@@ -14,29 +14,33 @@ body,
     background-color: rgb(202, 216, 99);
 }
 .cards {
-    font-size: 30px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    text-align: center;
 }
 .new-england {
     border: 3px solid rgb(121, 150, 239);
     border-radius: 25px;
-    height: 200px;
-    width: 50%;
+    width: 40%;
     text-align: center;
+    font-size: 40px;
+}
+.ne-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .middle {
     border: 3px solid rgb(121, 150, 239);
     border-radius: 25px;
-    height: 200px;
-    width: 50%;
+    width: 40%;
     text-align: center;
+    font-size: 40px;
 }
 .southern {
     border: 3px solid rgb(121, 150, 239);
     border-radius: 25px;
-    height: 200px;
-    width: 50%;
+    width: 40%;
     text-align: center;
+    font-size: 40px;
 }
