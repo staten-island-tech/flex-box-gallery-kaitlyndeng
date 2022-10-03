@@ -1,46 +1,57 @@
-html,
-body,
-* {
+html {
+    background-color: rgb(207, 174, 135);
+}
+body {
     padding: 5px;
-    margin: 15px 30px;
     box-sizing: border-box;
-    font-size: 62.5%;
 }
 .header {
-    font-size: 50px;
+    background-color: rgb(179, 147, 95);
+    font-size: 40px;
     text-align: center;
-    border: 3px solid rgb(133, 95, 21);
+    border: 3px solid rgb(51, 36, 13);
     border-radius: 25px;
-    background-color: rgb(202, 216, 99);
+    margin: auto;
 }
 .cards {
     display: flex;
     justify-content: space-between;
     text-align: center;
+    
 }
 .new-england {
-    border: 3px solid rgb(121, 150, 239);
+    border: 3px solid rgb(51, 36, 13);
     border-radius: 25px;
-    width: 40%;
+    max-width: auto;
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
+    background-color: rgb(124, 78, 25);
+    margin: 15px 30px;
 }
-.ne-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.ne-header {
+    font-size: 30px;
 }
 .middle {
-    border: 3px solid rgb(121, 150, 239);
+    border: 3px solid rgb(51, 36, 13);
     border-radius: 25px;
-    width: 40%;
+    max-width: auto;
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
+    background-color: rgb(124, 78, 25);
+    margin: 15px 30px;
+}
+.middle-header {
+    font-size: 30px;
 }
 .southern {
-    border: 3px solid rgb(121, 150, 239);
+    border: 3px solid rgb(51, 36, 13);
     border-radius: 25px;
-    width: 40%;
+    max-width: auto;
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
+    background-color: rgb(124, 78, 25);
+    margin: 15px 30px;
+}
+.southern-header {
+    font-size: 30px;
 }
