@@ -38,6 +38,10 @@ body{
 .headings {
     font-size: 3rem;
 }
+.text {
+    font-weight: 200;
+    font-size: 2rem;
+}
 .images {
     max-width: auto;
     max-height: 25rem;
@@ -45,3 +49,14 @@ body{
 .animation:hover {
     transform:scale(1.5);
 }
+.form:before {
+    content: "\1F35D";
+    font-size: 2rem
+}
+.button {
+    transition: all 0.3s;
+}
+.button:hover {
+    transform: scale(1.5);
+}
+.
