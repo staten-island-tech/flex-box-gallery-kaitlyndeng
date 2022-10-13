@@ -24,6 +24,7 @@ body{
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+    cursor: pointer;
 }
 .pastas {
     border-radius: 35px;
@@ -49,14 +50,16 @@ body{
 .animation:hover {
     transform:scale(1.5);
 }
-.form:before {
+.icon:before {
     content: "\1F35D";
-    font-size: 2rem
-}
-.button {
-    transition: all 0.3s;
+    font-size: 2rem;
+    background-color: rgb(107, 131, 240);
 }
 .button:hover {
     transform: scale(1.5);
+    transition:0.3s;
 }
-.
+.pastas:hover {
+    transform: scale(1.2);
+    transition: 0.3;
+}
