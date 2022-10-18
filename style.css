@@ -17,6 +17,7 @@ body{
     animation-iteration-count: 1;
     animation-delay: 0s;
     position: relative;
+    flex-wrap: wrap;
 }
 .all-cards {
     padding: 15px;
@@ -92,22 +93,22 @@ body{
         transform: scale(1, 1);
       }
 }
-@media all and (max-width: 2880px) {
-    .main-header,.pastas,.images {
+@media all and (max-width: 1366px) {
+    .pastas,.images  {
         flex: 50%;
         max-width: 50%;
     }
 }
 
 @media all and (max-width:820px) {
-    .main-header,.pastas,.images {
+    .pastas,.images {
         flex: 50%;
         max-width: 50%;
     }
 }
 @media all and (max-width:390px) {
-    .main-header,.pastas,.images {
-      flex: 100%;
-      max-width: 100%;
+    .pastas,.images  {
+        flex: 50%;
+        max-width: 100%;
     }
   }
